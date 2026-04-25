@@ -16,13 +16,13 @@ function hideFallback() {
 
 function updateRickrolledText() {
   if (headingEl) {
-    headingEl.textContent = "Never gonna give you up";
+    headingEl.textContent = "Welcome to Project Rickroll";
   }
   if (subtitleEl) {
-    subtitleEl.innerHTML = "Welcome to Project <a href=\"https://en.wikipedia.org/wiki/Rickrolling\" target=\"_blank\" rel=\"noopener noreferrer\">Rickroll</a> - part of Project Dawn! (You probably shouldn't click on unusual links in emails).";
+    subtitleEl.innerHTML = "Welcome to Project <a href=\"https://en.wikipedia.org/wiki/Rickrolling\" target=\"_blank\" rel=\"noopener noreferrer\">Rickroll</a> - final phase of Project Dawn! You probably shouldn't be so quick to click on links in unusual emails.";
   }
   if (finePrintEl) {
-    finePrintEl.textContent = "Project Rickroll goal accomplished.";
+    finePrintEl.textContent = "Project Rickroll goal accomplished - Please update Kingpin.";
   }
 }
 
